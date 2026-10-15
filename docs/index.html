@@ -1,1 +1,155 @@
-docs/index.html
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KEANU | Cara Menjadi Pro Player ML</title>
+<style>
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:#07111f;color:#edf5ff;font:16px Arial,sans-serif;line-height:1.8}
+header{text-align:center;padding:40px 15px;background:linear-gradient(135deg,#07111f,#123c72,#087eaa)}
+header h1{margin:0;color:#65d9ff;font-size:44px;letter-spacing:6px}
+nav{position:sticky;top:0;background:#0b1b2d;padding:14px;text-align:center;z-index:2}
+nav a{color:#70dfff;text-decoration:none;margin:0 9px}
+.hero{text-align:center;padding:45px 20px;background:radial-gradient(circle,#174b78,#07111f 75%)}
+.hero h2{font-size:32px;line-height:1.3}
+button{padding:12px 18px;border:0;border-radius:8px;background:#22bce9;color:#06111d;font-weight:bold;cursor:pointer;margin:5px}
+main{max-width:850px;margin:auto;padding:20px}
+.card{background:#0d2034;border:1px solid #244968;border-radius:15px;padding:22px;margin:20px 0}
+h2,h3{color:#6cddff}
+.tip{border-left:4px solid #26c5ee;background:#102b40;padding:12px}
+li{margin:8px 0}
+.quiz button{display:block;width:100%;text-align:left;background:#18324a;color:white;border:1px solid #31536e}
+#hasil{color:#6cddff;font-weight:bold}
+footer{text-align:center;background:#030914;padding:25px;color:#a6c4d8}
+</style>
+</head>
+<body>
+<header>
+<h1>KEANU</h1>
+<p>LEVEL UP YOUR GAME</p>
+<p>Portal Belajar Mobile Legends: Bang Bang</p>
+</header>
+
+<nav>
+<a href="#beranda">Beranda</a>
+<a href="#tips">Tips Pro</a>
+<a href="#latihan">Latihan</a>
+<a href="#kuis">Kuis</a>
+</nav>
+
+<section class="hero" id="beranda">
+<p>🎮 GAMING • STRATEGI • ESPORTS</p>
+<h2>CARA MENJADI<br>PRO PLAYER ML</h2>
+<p>Belajar strategi, kuasai hero, dan tingkatkan kemampuan bermainmu!</p>
+<a href="#tips"><button>Mulai Belajar ⚡</button></a>
+</section>
+
+<main>
+<section class="card">
+<h2>01. Apa Itu Pro Player?</h2>
+<p>Pro player adalah pemain yang berkompetisi dengan kemampuan tinggi, pemahaman strategi, kedisiplinan, dan kerja sama tim yang baik.</p>
+<div class="tip">Ingat: hebat bukan hanya soal banyak kill. Objektif, komunikasi, dan keputusan juga penting!</div>
+</section>
+
+<section class="card" id="tips">
+<h2>02. Enam Tips Menjadi Pro Player</h2>
+<h3>🎯 1. Kuasai Hero Andalan</h3>
+<p>Pilih beberapa hero yang cocok dengan gaya bermainmu. Pelajari skill, combo, kelemahan, dan cara menghadapi lawan.</p>
+
+<h3>🗺️ 2. Pahami Map</h3>
+<p>Perhatikan minimap, waspadai musuh yang menghilang, bantu teman, dan lakukan rotasi pada waktu yang tepat.</p>
+
+<h3>⚔️ 3. Pahami Role</h3>
+<ul>
+<li><b>EXP Lane:</b> menjaga lane dan membantu pertarungan.</li>
+<li><b>Gold Lane:</b> mengumpulkan gold untuk meningkatkan damage.</li>
+<li><b>Mid Lane:</b> membantu rotasi dan mengontrol area tengah.</li>
+<li><b>Jungler:</b> farming dan membantu mengambil objektif.</li>
+<li><b>Roamer:</b> membuka informasi dan melindungi teman.</li>
+</ul>
+
+<h3>🛡️ 4. Sesuaikan Build</h3>
+<p>Pelajari item, emblem, dan battle spell. Sesuaikan build dengan hero lawan dan kebutuhan tim.</p>
+
+<h3>🤝 5. Kerja Sama Tim</h3>
+<p>Gunakan ping dan komunikasi yang sopan. Jangan menyalahkan teman; fokus pada strategi untuk menang bersama.</p>
+
+<h3>🧠 6. Jaga Mental</h3>
+<p>Evaluasi kesalahan setelah pertandingan. Beristirahat saat lelah dan seimbangkan bermain dengan belajar serta tidur.</p>
+</section>
+
+<section class="card" id="latihan">
+<h2>03. Checklist Latihan</h2>
+<p>Centang kegiatan yang sudah kamu lakukan:</p>
+<label><input type="checkbox"> Berlatih hero andalan</label><br>
+<label><input type="checkbox"> Mempelajari kesalahan pertandingan</label><br>
+<label><input type="checkbox"> Memahami map dan objektif</label><br>
+<label><input type="checkbox"> Berkomunikasi dengan baik</label><br>
+<label><input type="checkbox"> Mengatur waktu bermain dan istirahat</label>
+<p class="tip">Latihan yang konsisten lebih bermanfaat daripada memaksakan diri bermain terus-menerus.</p>
+</section>
+
+<section class="card">
+<h2>04. Strategi Pertandingan</h2>
+<h3>Early Game</h3><p>Fokus farming dan jaga lane. Hindari risiko yang tidak perlu.</p>
+<h3>Mid Game</h3><p>Koordinasikan rotasi, bantu tim, dan cari peluang mengambil objektif.</p>
+<h3>Late Game</h3><p>Jaga posisi, tetap bersama tim, dan jangan terburu-buru memulai pertarungan.</p>
+</section>
+
+<section class="card" id="kuis">
+<h2>05. Kuis Mini KEANU 🧩</h2>
+<p id="pertanyaan"></p>
+<div class="quiz" id="pilihan"></div>
+<p id="hasil"></p>
+<button id="lanjut" onclick="berikutnya()">Soal Berikutnya →</button>
+</section>
+</main>
+
+<footer>
+<h3>KEANU GAMING</h3>
+<p>Belajar • Berlatih • Berkembang</p>
+<p>Jadilah pemain hebat sekaligus rekan tim yang baik.</p>
+</footer>
+
+<script>
+const soal=[
+{q:"Apa yang perlu diperhatikan untuk mengetahui posisi lawan?",a:["Minimap","Warna skin","Jumlah teman online"],b:0},
+{q:"Apa tujuan kerja sama tim?",a:["Menyalahkan teman","Memenangkan objektif bersama","Mengejar kill saja"],b:1},
+{q:"Apa yang dilakukan setelah melakukan kesalahan?",a:["Mengejek tim","Berhenti belajar","Mengevaluasi permainan"],b:2},
+{q:"Bagaimana memilih build yang tepat?",a:["Selalu sama","Menyesuaikan lawan dan situasi","Meniru tanpa berpikir"],b:1},
+{q:"Apa yang penting saat late game?",a:["Berjalan sendirian","Mengabaikan map","Menjaga posisi dan koordinasi"],b:2}
+];
+let n=0,skor=0,jawab=false;
+function tampil(){
+jawab=false;
+document.getElementById("hasil").textContent="";
+document.getElementById("pertanyaan").textContent=(n+1)+". "+soal[n].q;
+const area=document.getElementById("pilihan");area.innerHTML="";
+soal[n].a.forEach((x,i)=>{
+const b=document.createElement("button");b.textContent=x;
+b.onclick=()=>{
+if(jawab)return;jawab=true;
+if(i===soal[n].b){skor++;document.getElementById("hasil").textContent="Benar! Hebat! ⚡";}
+else document.getElementById("hasil").textContent="Belum tepat. Yuk belajar lagi!";
+};area.appendChild(b);
+});
+}
+function berikutnya(){
+if(n===soal.length-1&&jawab){
+document.getElementById("pertanyaan").textContent="Kuis selesai! Skor: "+skor+" dari "+soal.length;
+document.getElementById("pilihan").innerHTML="";
+document.getElementById("hasil").textContent="Terus berlatih dan tingkatkan kemampuanmu!";
+document.getElementById("lanjut").textContent="Ulangi Kuis";
+document.getElementById("lanjut").onclick=()=>{n=0;skor=0;document.getElementById("lanjut").textContent="Soal Berikutnya →";document.getElementById("lanjut").onclick=berikutnya;tampil();};
+return;
+}
+if(!jawab){document.getElementById("hasil").textContent="Pilih jawaban dulu!";return;}
+n++;tampil();
+}
+tampil();
+</script>
+</body>
+</html>
+
